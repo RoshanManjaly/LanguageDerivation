@@ -1,0 +1,134 @@
+========= use python3 to run  ======== 
+
+*******   test1.grm -l6   *******
+id
+( id )
+id + id
+( ( id ) )
+( id ) + id
+id + ( id )
+( id + id )
+id + id + id
+id + id + id
+*******   test2.grm -l1   *******
+b
+*******   test2.grm -l25   *******
+b
+a b b
+a a b b b
+a a a b b b b
+a a a a b b b b b
+a a a a a b b b b b b
+a a a a a a b b b b b b b
+a a a a a a a b b b b b b b b
+a a a a a a a a b b b b b b b b b
+a a a a a a a a a b b b b b b b b b b
+a a a a a a a a a a b b b b b b b b b b b
+a a a a a a a a a a a b b b b b b b b b b b b
+a a a a a a a a a a a a b b b b b b b b b b b b b
+*******   test3.grm -l4   *******
+0
+1
+0 0
+0 1
+1 0
+1 1
+0 0 0
+0 0 1
+0 1 0
+0 1 1
+1 0 0
+1 0 1
+1 1 0
+1 1 1
+0 0 0 0
+0 0 0 1
+0 0 1 0
+0 0 1 1
+0 1 0 0
+0 1 0 1
+0 1 1 0
+0 1 1 1
+1 0 0 0
+1 0 0 1
+1 0 1 0
+1 0 1 1
+1 1 0 0
+1 1 0 1
+1 1 1 0
+1 1 1 1
+*******   test4.grm -l4   *******
+x
+y
+x ** x
+x ** y
+y ** x
+y ** y
+x * x
+x * y
+y * x
+y * y
+x / x
+x / y
+y / x
+y / y
+x + x
+x + y
+y + x
+y + y
+x - x
+x - y
+y - x
+y - y
+( x )
+( y )
+*******   test5.grm -l3   *******
+a
+a a
+a 0
+a 1
+a a a
+a 0 a
+a 1 a
+a a 0
+a a 1
+a 0 0
+a 0 1
+a 1 0
+a 1 1
+*******   test6.grm -l5   *******
+a
+a a b
+a b a
+a a
+a a b a b
+a a b b a
+a b a a b
+a b a b a
+b a a
+a a a b
+a a b a
+a a b a
+a b a a
+a a a b b
+a b b a a
+b a a a b
+b a a b a
+b a a b a
+b a b a a
+a a a
+a b a a
+b a a a
+b a b a a
+b b a a a
+a a a a b
+a a a b a
+a a a b a
+a a b a a
+a a b a a
+a b a a a
+a a a a
+a a b a a
+a b a a a
+b a a a a
+a a a a a

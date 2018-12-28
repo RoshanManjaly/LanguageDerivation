@@ -1,0 +1,11 @@
+Expr -> Expr + Term
+Expr -> Expr - Term
+Expr -> Term
+Term -> Term * Factor
+Term -> Term / Factor
+Term -> Factor
+Factor -> Primary ** Factor
+Factor -> Primary
+Primary -> x
+Primary -> y
+Primary -> ( Expr )
